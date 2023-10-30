@@ -1,0 +1,93 @@
+body{
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+}
+
+header nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav ul li{
+    padding: 10px 15px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+header nav ul li a:hover{
+    border-bottom: 1px solid black;
+}
+
+span{
+    color: orange;
+}
+
+#top{
+    text-align: center;
+    background-color: grey;
+    padding: 20px;
+    color: white;
+}
+
+main{
+    background-color: orange;
+}
+
+.flex-container{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    width: 70%;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+/* Covering media queries and responisve design */
+
+@media only screen and (max-width:425px){
+    body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    }
+    
+    header h2{
+    text-align: center;
+    }
+    
+    header nav ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    
+    /* justify-content is for flex-direction set as row */
+    /* align-items is for flex-direction set as column */
+    
+    
+    .flex-container{
+    width: 100%;
+    }
+    
+    footer{
+    text-align: center;
+    }
+    
+    main{
+    background-color: cornflowerblue;
+    }
+}
