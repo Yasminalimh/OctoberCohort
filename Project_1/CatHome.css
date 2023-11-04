@@ -1,0 +1,248 @@
+body{
+    background-color: black;
+    color: burlywood;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+
+
+header h1{
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    font-style: oblique;
+}
+
+header p{
+    text-align: center;
+    margin: auto;
+    font-style: oblique;
+}
+
+header nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav ul li{
+    padding: 10px 15px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: burlywood;
+}
+
+header nav ul li a:hover{
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+#top{
+    border-top: 1px solid burlywood;
+    border-bottom: 1px solid burlywood;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    color: burlywood;
+}
+
+#top1{
+    border-top: 1px solid burlywood;
+    text-align: left;
+    padding: 20px;
+    margin: auto;
+    color: burlywood;
+}
+
+
+.othertop{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    width: 70%;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.othertop p{
+    width: 200%;
+}
+
+.othertop1{
+    display: flex;
+    justify-content: space-around;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    padding: 10px 15px;
+    width: 80%;
+    margin: auto;
+}
+
+.othertop1 h2{
+    color: burlywood;
+    padding: 5px;
+}
+
+.othertop1 p{
+    color: white;
+    display: flex;
+    padding: 20px;
+    width: 50%;
+}
+
+.othertop1 ul li{
+    color: white;
+    padding: 3px;
+}
+
+#top2{
+    border-top: 1px solid burlywood;
+    padding: 50px;
+    margin: auto;
+}
+
+#top2 img{
+    width: 50%;
+    margin: auto;
+    align-items: center;
+}
+
+.othertop2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px 15px;
+    width: 80%;
+    margin: auto;
+}
+
+.othertop2 div h2{
+    color: burlywood;
+}
+
+.othertop2 div p{
+    color: white;
+}
+
+.othertop2 div h3{
+    color: burlywood;
+    font-style: oblique;
+}
+
+.othertop2 div ol li{
+    color: white;
+    padding: 10px 15px;
+}
+
+.othertop2 div ol li a{
+    text-decoration: none;
+    color: white;
+}
+
+.othertop2 div ol li a:hover{
+    color: burlywood;
+    border-bottom: 1px solid burlywood;
+}
+
+img{
+    border-bottom: 4px solid burlywood;
+    border-top: 4px solid burlywood;
+    border-left: 4px solid burlywood;
+    border-right: 4px solid burlywood;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+footer{
+    border-top: 1px solid burlywood;
+    border-bottom: 1px solid burlywood;
+    color: burlywood;
+    padding: 20px;
+    display:flex;
+    justify-content: space-around;
+}
+
+footer div ul{
+    color:burlywood;
+    list-style-type: none;
+}
+
+footer div ul li{
+    padding: 10px 15px;
+}
+
+footer div ul li a{
+    text-decoration: none;
+    color: burlywood;
+}
+
+footer div ul li a:hover{
+    color: white;
+    border-bottom: 1px solid white ;
+}
+
+.hours{
+    padding: 10px 15px;
+    font-style: normal;
+}
+
+
+footer p a{
+    text-decoration: none;
+    color: burlywood;
+}
+
+footer p a:hover{
+    color: white;
+    border-bottom: 1px solid white; 
+}
+
+@media only screen and (max-width:425px){
+    body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    }
+    
+    header h2{
+    text-align: center;
+    }
+    
+    header nav ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    footer nav ul{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .othertop{
+    width: 100%;
+    }
+
+    .othertop1{
+        width: 100%;
+    }
+
+    .othertop2{
+        width: 100%;
+    }
+    
+    footer{
+    text-align: center;
+    }
+    
+}
