@@ -104,6 +104,7 @@ if (operation === "addition"){
 
 //Ex:
 
+/* 
 function errorMessage(){
     var someOne = "Amina"
     return someOne
@@ -120,6 +121,7 @@ function checkName(param){
     return ans 
 }
 
+
 if(checkName(firstName) && (firstName.length>=2 && firstName.length<15)){
     if(firstName.toLowerCase() === "john" || firstName.toLowerCase() === "james" || firstName.toLowerCase() === "jason"){
         console.log(`Welcome back ${firstName}`)
@@ -129,5 +131,19 @@ if(checkName(firstName) && (firstName.length>=2 && firstName.length<15)){
 }else{
     errorMessage()
 }
+*/
+
+// Another way of writing function = the arrow method
+
+/*
+const checkName = () =>{
+    let ans = false
+    if(typeof param === "string"){
+        ans = true
+    }
+
+    return ans 
+}
+*/
 
 
